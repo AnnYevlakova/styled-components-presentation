@@ -10279,7 +10279,7 @@ module.exports = __webpack_require__(84);
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _templateObject = _taggedTemplateLiteral(['\n    width: 150px;\n    height: 50px;\n    margin-right: 20px;\n    border: ', ';\n    background-color: ', ';  \n    color: ', ';\n    outline: none;\n    &:focus {\n        box-shadow: -4px 6px 12px 0px #cecece;\n    }\n'], ['\n    width: 150px;\n    height: 50px;\n    margin-right: 20px;\n    border: ', ';\n    background-color: ', ';  \n    color: ', ';\n    outline: none;\n    &:focus {\n        box-shadow: -4px 6px 12px 0px #cecece;\n    }\n']);
+var _templateObject = _taggedTemplateLiteral(['\n    width: 150px;\n    height: 50px;\n    margin-right: 20px;\n    border: ', ';\n    background-color: ', ';\n    color: ', ';\n    outline: none;\n    box-shadow: -4px 6px 12px 0px #cecece;\n    &:focus {\n        box-shadow: none;\n        font-size: 18px;\n    }\n'], ['\n    width: 150px;\n    height: 50px;\n    margin-right: 20px;\n    border: ', ';\n    background-color: ', ';\n    color: ', ';\n    outline: none;\n    box-shadow: -4px 6px 12px 0px #cecece;\n    &:focus {\n        box-shadow: none;\n        font-size: 18px;\n    }\n']);
 
 var _styledComponents = __webpack_require__(85);
 
@@ -10306,7 +10306,7 @@ function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defi
 var Button = _styledComponents2.default.button(_templateObject, function (props) {
     return props.primary ? '1px solid #a70054' : '1px solid #000000';
 }, function (props) {
-    return props.primary ? '#ffb4da' : '#ffffff';
+    return props.primary ? '#f5b1d4' : '#ffffff';
 }, function (props) {
     return props.primary ? '#74003a' : '#000000';
 });
